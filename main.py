@@ -16,6 +16,8 @@ def main():
     except IndexError:
         toprint=None
     print(hello_print(toprint))
+    print("Let's print again")
+    print(hello_print(toprint))
 
 
 def hello_print(text_to_print=None):
