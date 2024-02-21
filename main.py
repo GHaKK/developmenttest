@@ -1,20 +1,27 @@
 #!/usr/bin/env python
+'''
+Ska det finnas docstring här med?
+'''
 import sys
 
 
 def main():
-    if len(sys.argv) < 2:
-        toprint = "No printing"
-    else:
-        toprint = sys.argv[1]
+    '''
+    Doc-string to pass the lint
+    '''
+
     try:
-        print(hello_print(toprint))
-    except Exception as e:
-        print(e)
+        toprint = sys.argv[1]
+    except IndexError:
+        toprint=None
+    print(hello_print(toprint))
 
 
 def hello_print(text_to_print=None):
-    return (text_to_print)
+    '''
+    Return a value
+    '''
+    return text_to_print
 
 
 if __name__ == "__main__":
