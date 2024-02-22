@@ -1,10 +1,9 @@
 '''
 TESTING!!!
 '''
-import pytest
+import sys
 from main import hello_print
 from main import main
-import sys
 
 
 def test_print_main_with_args(mocker):
