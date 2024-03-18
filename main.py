@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 '''
-Return string to main
+Return string to main to be good
 '''
 
 
