@@ -1,8 +1,9 @@
 #!/usr/bin/env python
 '''
-Ska det finnas docstring här med?
-måste ändra nått så kanske det sker.
+Return string to main
 '''
+
+
 import sys
 
 
