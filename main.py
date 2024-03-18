@@ -12,6 +12,7 @@ def main():
     Doc-string to pass the lint
     '''
 
+    print("Hello World")
     try:
         toprint = sys.argv[1]
     except IndexError:
