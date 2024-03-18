@@ -1,9 +1,7 @@
 '''
 TESTING!!!
 '''
-import sys
 from main import hello_print
-from main import main
 
 
 def test_toprint_string():
