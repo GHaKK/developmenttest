@@ -23,7 +23,7 @@ def hello_print(text_to_print=None):
     '''
     Return a value
     '''
-    return text_to_print
+    return "Hello"
 
 
 if __name__ == "__main__":
